@@ -1,0 +1,69 @@
+:root{
+    --theme-color:rgb(255, 255, 255);
+    --primary-color: #5091ce;
+    --secundary-color: rgb(0, 187, 255);
+    --text-color-inverse: black;
+    --text-color: rgb(0, 0, 0);
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #c4d0f0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+.represent-title{
+    text-align: center;
+    color: #5091ce;
+}
+.contact-title{
+    text-align: center;
+    color: #5091ce;
+}
+.works-title{
+    text-align: center;
+    color: #5091ce;
+}
+.title{
+    color: #295076;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+}
+
+footer{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950px){
+    .horizontal-padding{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
